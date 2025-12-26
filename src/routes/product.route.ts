@@ -6,7 +6,7 @@ import { createProductValidation, getProductByIdValidation } from "../middleware
 import { validate } from "../utils/validator"
 import { authenticate } from "../middleware/auth.middleware"
 import { upload } from "../middleware/upload.middleware"
-import prismaInstance from "../prisma"
+import prismaInstance from "../database"
 
 const router = Router()
 

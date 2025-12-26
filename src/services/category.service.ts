@@ -1,4 +1,4 @@
-import prisma from "../prisma"
+import prisma from "../database"
 
 export const getAllCategories = async () => {
     return await prisma.category.findMany()
